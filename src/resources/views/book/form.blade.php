@@ -33,8 +33,8 @@
  @foreach($authors as $author)
  <option
  value="{{ $author->id }}"
- @if ($author->id == old('author_id', $book->author-
->id ?? false)) selected @endif
+ @if ($author->id == old('author_id', $book->author-> id ?? false)) 
+ selected @endif
  >{{ $author->name }}</option>
  @endforeach
  </select>
@@ -79,7 +79,6 @@
  <p class="invalid-feedback">{{ $errors->first('price') }}</p>
  @enderror
  </div>
- // image
  <div class="mb-3">
  <div class="form-check">
  <input

@@ -22,7 +22,7 @@ public function genre()
  return $this->hasMany(Genre::class);
 }
 
-
+/*
 public function jsonSerialize(): mixed
 {
  return [
@@ -36,4 +36,5 @@ public function jsonSerialize(): mixed
  'image' => asset('images/' . $this->image),
  ];
 }
+*/
 }

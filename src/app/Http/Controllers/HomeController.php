@@ -8,8 +8,16 @@ class HomeController extends Controller
 {
     
     public function index()
+
     {
+        return view(
+            'home.index',
+            ['title' => 'Sākumlapa']
+            );
+           
+        /*
      return view('public', ['title' => 's20grinelan']);
+     */
     }
     
 
