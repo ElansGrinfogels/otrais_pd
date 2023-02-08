@@ -15,9 +15,7 @@ class HomeController extends Controller
             ['title' => 'Sākumlapa']
             );
            
-        /*
      return view('public', ['title' => 's20grinelan']);
-     */
     }
     
 

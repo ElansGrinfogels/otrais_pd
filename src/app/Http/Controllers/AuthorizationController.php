@@ -8,7 +8,12 @@ class AuthorizationController extends Controller
 {
     public function login()
     {
-        
+        /*
+        echo 'mans_lietotāja_vārds : <input value="'
+        . \Illuminate\Support\Facades\Hash::make('parole')
+        . '">';
+        exit();
+      */   
      return view(
      'authorization.login',
      [

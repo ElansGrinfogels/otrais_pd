@@ -45,12 +45,12 @@ Route::post('/genre/put', [GenreController::class, 'put']);
 Route::get('/genre/update/{book}', [GenreController::class, 'update']);
 Route::post('/genre/patch/{book}', [GenreController::class, 'patch']);
 Route::post('/genre/delete/{book}', [GenreController::class, 'delete']);
-/*
+
 // Auth routes
 Route::get('/login', [AuthorizationController::class, 'login'])->name('login');
 Route::post('/auth', [AuthorizationController::class, 'authenticate']);
 Route::get('/logout', [AuthorizationController::class, 'logout']);
-*/
+
 
 // Data routes
 Route::prefix('data')->group(function () {
